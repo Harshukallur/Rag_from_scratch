@@ -1,0 +1,50 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables / API keys
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local vector databases / generated data
+chroma_db/
+vector_db/
+*.faiss
+*.index
+
+# Generated files
+output/
+outputs/
+temp/
+tmp/
